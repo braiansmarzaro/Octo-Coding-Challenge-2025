@@ -1,0 +1,1 @@
+import numpy as n;d=n.loadtxt('1');print(d[abs(d-d.mean())>2*d.std()].sum())
